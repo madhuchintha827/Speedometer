@@ -1,0 +1,96 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  background-color: #07080c;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.image-container {
+  min-width: 300px;
+  max-width: 400px;
+}
+.speed-count {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.limit {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
+.button {
+  background-color: #0b69ff;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-right: 15px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
+
+.button-break {
+  border: 2px solid #94a3b8;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+  .image-container {
+    min-width: 600px;
+  }
+  .speed-count {
+    font-size: 35px;
+  }
+  .button {
+    background-color: #0b69ff;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    outline: none;
+  }
+  .button-break {
+    border: 2px solid #94a3b8;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+
+    font-family: 'Roboto';
+    cursor: pointer;
+    outline: none;
+  }
+}
